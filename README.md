@@ -23,7 +23,7 @@ This is the triangular-lattice analog of the square-lattice count A352029.
 
 The listed values are the number of minimum-size containers found within a
 finite search window whose width equals n (forced by the straight n-iamond) and
-whose height grows as `max(4, (n+2)//3)`; global minimality over all bounding
+whose height grows as `max(4, floor((n+2)/3))`; global minimality over all bounding
 boxes is conjectured but not separately certified.
 
 ## Definitions
